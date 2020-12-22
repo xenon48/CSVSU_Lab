@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/album"
+        android:layout_width="420dp"
+        android:layout_height="390dp"
+        android:layout_alignParentTop="true"
+        android:src="@color/colorAccent"
+        />
+
+
+    <ImageView
+        android:id="@+id/likeon"
+        android:visibility="gone"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:paddingBottom="29dp"
+        android:paddingRight="9dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
